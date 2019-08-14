@@ -1,12 +1,12 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12">
+            <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Example Component</div>
+                    <div class="card-header">Dashboard component</div>
 
                     <div class="card-body">
-                        This is a loaded from Vue.component
+                        This is a Dashboard Page.
                     </div>
                 </div>
             </div>

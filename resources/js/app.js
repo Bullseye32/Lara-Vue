@@ -6,7 +6,22 @@
 
 require('./bootstrap');
 
-window.Vue = require('vue');
+// window.Vue = require('vue');
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+// Vue-Routes
+let routes =[
+    { path: '/dashboard', component: require('./components/dashboard.vue').default },
+    { path: '/profile', component: require('./components/profile.vue').default }
+]
+
+let router = new VueRouter({
+    // mode: 'history', //changes url format to shorter
+    routes //short for 'routes: routes'
+})
 
 /**
  * The following block of code may be used to automatically register your
@@ -20,6 +35,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+// Vue.component('dashboard', require('./components/dashboard.vue').default);
+// Vue.component('dashboard', require('./components/profile.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -29,4 +46,5 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    router
 });
