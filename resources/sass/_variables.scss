@@ -8,12 +8,48 @@ $line-height-base: 1.6;
 
 // Colors
 $blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66d9b;
+$green: #38c172;
 $red: #e3342f;
 $orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
 $teal: #4dc0b5;
+$purple: #9561e2;
+$indigo: #6574cd;
+$pink: #f66d9b;
+$yellow: #ffed4a;
 $cyan: #6cb2eb;
+
+.blue{
+    color: $blue;
+}
+
+.green{
+    color: $green;
+}
+
+.red{
+    color: $red;
+}
+
+.orange{
+    color: $orange;
+}
+
+.teal{
+    color: $teal;
+}
+
+.purple{
+    color: $purple;
+}
+.indigo{
+    color: $indigo;
+}
+.pink{
+    color: $pink;
+}
+.yellow{
+    color: $yellow;
+}
+.cyan{
+    color: $cyan;
+}
