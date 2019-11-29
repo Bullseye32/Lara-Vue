@@ -6,7 +6,7 @@
                     <div class="card-header">Dashboard component</div>
 
                     <div class="card-body">
-                        This is a Dashboard Page.
+                        This is a Vue-Dashboard Page.
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>AdminLTE 3 | Starter</title>
+    <title>Lara-Vue || Dashboard</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
     <script src="{{ asset('js/fontawesome.js') }}"></script>
@@ -35,7 +35,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
                 <div class="input-group-append">
                     <button class="btn btn-navbar" type="submit">
-                        <i class="fab fa-searchengin"></i>
+                        <i class="fab fa-searchengine"></i>
                     </button>
                 </div>
             </div>
@@ -101,16 +101,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
+                                 {{--users--}}
                                 <router-link to="/users" class="nav-link">
                                     <i class="fas fa-users nav-icon yellow"></i>
                                     <p>Users</p>
                                 </router-link>
                             </li>
+                            {{--products--}}
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <router-link to="/products" class="nav-link">
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>Products</p>
-                                </a>
+                                </router-link>
+
                             </li>
                         </ul>
                     </li>

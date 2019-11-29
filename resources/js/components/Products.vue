@@ -5,7 +5,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h3 class="card-title">Users Table</h3>
+                        <h3 class="card-title">Products Table</h3>
 
                         <div class="card-tools">
                             <button class="btn btn-success" data-toggle="modal" data-target="#addNew">Add New
@@ -26,7 +26,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                            <tr>
                                 <td>183</td>
                                 <td>John Doe</td>
                                 <td>11-7-2014</td>
@@ -41,22 +41,7 @@
                                     </a>
                                 </td>
                             </tr>
-                                <tr>
-                                <td>183</td>
-                                <td>John Doe</td>
-                                <td>11-7-2014</td>
-                                <td><span class="tag tag-success">Approved</span></td>
-                                <td>
-                                    <a href="#">
-                                        <i class="fa fa-edit blue"></i>
-                                    </a>
-                                    /
-                                    <a href="#">
-                                        <i class="fa fa-trash red"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                                <tr>
+                            <tr>
                                 <td>183</td>
                                 <td>John Doe</td>
                                 <td>11-7-2014</td>
@@ -81,7 +66,7 @@
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modal to Add-User -->
         <div class="modal fade" id="addNew" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -137,7 +122,7 @@
 
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                            <!--                            <button type="submit" class="btn btn-success">Update</button>-->
+                            <!--<button type="submit" class="btn btn-success">Update</button>-->
                             <button type="submit" class="btn btn-primary">Create</button>
                         </div>
 
